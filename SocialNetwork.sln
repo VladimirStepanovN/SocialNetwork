@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialNetwork", "SocialNetwork\SocialNetwork.csproj", "{4A9E2F99-3BCC-4D24-87F7-B38CAC077BBD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SocialNetwork", "SocialNetwork\SocialNetwork.csproj", "{4A9E2F99-3BCC-4D24-87F7-B38CAC077BBD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{F936EB72-945B-4058-8F42-7DC60FC2BA97}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
 		README.md = README.md
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialNetwork.Tests", "SocialNetwork.Tests\SocialNetwork.Tests.csproj", "{E630ADA7-0C54-4D79-812E-518C184F752D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{4A9E2F99-3BCC-4D24-87F7-B38CAC077BBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A9E2F99-3BCC-4D24-87F7-B38CAC077BBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A9E2F99-3BCC-4D24-87F7-B38CAC077BBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E630ADA7-0C54-4D79-812E-518C184F752D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E630ADA7-0C54-4D79-812E-518C184F752D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E630ADA7-0C54-4D79-812E-518C184F752D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E630ADA7-0C54-4D79-812E-518C184F752D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
